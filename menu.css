@@ -1,0 +1,52 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: block;
+}
+
+.web {
+    margin: 10px auto;
+    width: 100%;
+}
+
+/* Bagian Menu Utama */
+ul {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    box-shadow: 0 0 15px #000 inset;
+}
+
+ul:after {
+    content: "";
+    clear: both;
+    display: ruby-base;
+}
+
+ul li {
+    float: left;
+}
+
+ul li:hover {
+    background: #ef0b0b;
+    border-radius: 15px;
+}
+
+ul li:hover a {
+    color: #fefefe;
+}
+
+ul li a {
+    display: block;
+    padding: 18px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: wheat;
+}
